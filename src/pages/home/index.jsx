@@ -1,9 +1,11 @@
-function Home() {
+import Header from "../../components/header";
+
+const Home = () => {
   return (
     <div>
-      <h1 className="text-red-500">test</h1>
+    <Header />
     </div>
   );
-}
+};
 
 export default Home;
