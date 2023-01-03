@@ -2,7 +2,7 @@ import Header from "../../components/header";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-black">
     <Header />
     </div>
   );
